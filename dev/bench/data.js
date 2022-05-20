@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653038753205,
+  "lastUpdate": 1653038755211,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -398,6 +398,40 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "9550d8c2ca4bb83219b2cab8a8346ad9818f7b7b",
+          "message": "cmake: fix includes for dictionary generation\n\nSee https://github.com/root-project/root/issues/8308, where the issue is rightly described as 'counter-intuitive'",
+          "timestamp": "2022-05-20T11:07:46+02:00",
+          "tree_id": "7c61b1d2a8ee247555859a526964244a5688a562",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/9550d8c2ca4bb83219b2cab8a8346ad9818f7b7b"
+        },
+        "date": 1653038754386,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 5.649169849066577,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.036028651241956,
+            "unit": "Evt/s"
           }
         ]
       }
