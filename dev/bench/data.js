@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1653307907087,
+  "lastUpdate": 1653307909063,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -470,6 +470,40 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "d7205a88827b1e07d4a453133087c048da3cb48d",
+          "message": "cmake: avoid absolute paths to source headers being baked into dictionary",
+          "timestamp": "2022-05-23T11:56:39Z",
+          "tree_id": "7b3ff120f0118bfa6812bc28ebe1467fe21a6755",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/d7205a88827b1e07d4a453133087c048da3cb48d"
+        },
+        "date": 1653307908261,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 4.4883971091295845,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.40064699301055,
+            "unit": "Evt/s"
           }
         ]
       }
