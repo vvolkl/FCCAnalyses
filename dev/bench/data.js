@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1657636939522,
+  "lastUpdate": 1657636941408,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -686,6 +686,40 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "20173bbb9698b11dd72d11d2144431647a602442",
+          "message": "Fix send batch new scheme, part 2",
+          "timestamp": "2022-07-12T16:31:14+02:00",
+          "tree_id": "0472ddec8d486fb876e1a139d7b46ede5fe29893",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/20173bbb9698b11dd72d11d2144431647a602442"
+        },
+        "date": 1657636940723,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 6.430891752539067,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.686665799871393,
+            "unit": "Evt/s"
           }
         ]
       }
