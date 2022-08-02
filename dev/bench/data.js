@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659442640172,
+  "lastUpdate": 1659442828187,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -876,6 +876,51 @@ window.BENCHMARK_DATA = {
             "name": "prod | Events processed per second: examples/FCCee/test",
             "value": 8.346999210575188,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "e8a644f554b49f6570398ce3458a14ef711287e4",
+          "message": "cmake: fix minimum required version\n\nUse 3.16, as imposed by ROOT. Older cmake versions have trouble with generator expression they have to parse when finding ROOT and will error out with:\n\n```\nCMake Error at /cvmfs/sw.hsf.org/spackages5/root/6.26.02/x86_64-ubuntu20.04-gcc9.4.0-opt/4uthe/cmake/RootMacros.cmake:639 (add_custom_command):\n  Error evaluating generator expression:\n\n    $<REMOVE_DUPLICATES:$<TARGET_PROPERTY:FCCAnalyses,INTERFACE_SYSTEM_INCLUDE_DIRECTORIES>>\n\n  Expression did not evaluate to a known generator expression\n```\n\nEven older CMake versions won't even reach this point, because of issues with the FindPython module.",
+          "timestamp": "2022-08-02T13:46:29+02:00",
+          "tree_id": "c6ed7237b15a3a4394f9300cb77e7d18be20f014",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/e8a644f554b49f6570398ce3458a14ef711287e4"
+        },
+        "date": 1659442825347,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 16.52131986618042,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 21.25245761871338,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/test",
+            "value": 16.088491439819336,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
           }
         ]
       }
