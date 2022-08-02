@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1659445072626,
+  "lastUpdate": 1659445074342,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1005,6 +1005,45 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "ebb1d6a58008340cd0e0764c843b70fc082e2b75",
+          "message": "cmake cleanup",
+          "timestamp": "2022-08-02T14:48:48+02:00",
+          "tree_id": "1528a3f5b5faee520d0c71ea00a32f36fae58453",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/ebb1d6a58008340cd0e0764c843b70fc082e2b75"
+        },
+        "date": 1659445073699,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.260926816270388,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.6626839219568605,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 7.595873888584068,
+            "unit": "Evt/s"
           }
         ]
       }
