@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1665501517985,
+  "lastUpdate": 1665501519516,
   "repoUrl": "https://github.com/vvolkl/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -1612,6 +1612,50 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "committer": {
+            "email": "valentin.volkl@cern.ch",
+            "name": "Valentin Volkl",
+            "username": "vvolkl"
+          },
+          "distinct": true,
+          "id": "3bfb7505b77b9e22c1241ec3016441cfc5716ee3",
+          "message": "testing: disable case study test to fix nightlies",
+          "timestamp": "2022-10-11T17:07:22+02:00",
+          "tree_id": "70e26bc107cf7a3480dea7b3c519268b9bdb71b2",
+          "url": "https://github.com/vvolkl/FCCAnalyses/commit/3bfb7505b77b9e22c1241ec3016441cfc5716ee3"
+        },
+        "date": 1665501519108,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: case-studies/analysis_example/scripts",
+            "value": 9.928305737650067,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 7.963401235426266,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 6.362383823047414,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 8.496350389212614,
+            "unit": "Evt/s"
           }
         ]
       }
