@@ -71,7 +71,7 @@ target_link_libraries(FCCAnalyses
                       EDM4HEP::edm4hepDict
                       podio::podio
                       ${FASTJET_LIBRARY}
-                      ${FASTJET_LIBRARY_DIRS}/libfastjetplugins.so
+                      ${FASTJET_LIBRARY_DIRS}/libfastjetplugins.dylib
                       #${AWKWARD_LIBRARIES}
                       ${LIBAWKWARD}
                       ${CPU-KERNELS}
