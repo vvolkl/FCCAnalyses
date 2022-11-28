@@ -3,6 +3,9 @@
 
 #include "FCCAnalyses/ONNXRuntime.h"
 #include "ROOT/RVec.hxx"
+#include <unordered_map>
+#include <string>
+#include <vector>
 
 namespace FCCAnalyses {
   namespace rv = ROOT::VecOps;
