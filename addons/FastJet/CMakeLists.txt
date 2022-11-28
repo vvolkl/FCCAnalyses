@@ -8,6 +8,6 @@ fccanalyses_addon_build(FastJet
                         SOURCES ${sources} ${headers}
                         EXT_HEADERS ${FASTJET_INCLUDE_DIRS}
                         EXT_LIBS ${FASTJET_LIBRARY}
-                                 ${FASTJET_LIBRARY_DIRS}/libfastjetplugins.so
+                                 ${FASTJET_LIBRARY_DIRS}/libfastjetplugins.dylib
                                  ROOT::MathCore
                         INSTALL_COMPONENT fastjet)
